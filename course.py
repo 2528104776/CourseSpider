@@ -66,9 +66,9 @@ class HtmlGetter:
             if week=='fri':
                 name5.append('第'+start+'~'+end+'节:' + name +' 地点:'+ placename)
             if week=='sat':
-                name5.append('第'+start+'~'+end+'节:' + name +' 地点:'+ placename)
+                name6.append('第'+start+'~'+end+'节:' + name +' 地点:'+ placename)
             if week=='sun':
-                name5.append('第'+start+'~'+end+'节:' + name +' 地点:'+ placename)
+                name7.append('第'+start+'~'+end+'节:' + name +' 地点:'+ placename)
         name1.sort()
         name2.sort()
         name3.sort()
